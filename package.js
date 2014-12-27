@@ -1,7 +1,8 @@
 Package.describe({
   summary: "Login service for Mozilla Persona accounts.",
   git: "https://github.com/iamthemuffinman/meteor-accounts-persona",
-  version: "0.0.1"
+  version: "0.0.1",
+  name: "iamthemuffinman:accounts-persona"
 });
 
 Package.on_use(function(api) {
