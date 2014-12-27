@@ -4,9 +4,9 @@ Package.describe({
   version: "0.0.1"
 });
 
-Package.on_use(function(api, where) {
-  api.use('accounts-base', ['client', 'server']);
-  api.use('http', ['server']);
+Package.on_use(function(api) {
+  api.use('accounts-base@1.1.3', ['client', 'server']);
+  api.use('http@1.0.9', ['server']);
 
   api.add_files('persona-server.js', 'server');
   api.add_files('persona-client.js', 'client');
